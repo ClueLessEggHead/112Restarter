@@ -1,13 +1,16 @@
 {
-  "name": "nodejs-express",
+  "name": "notificationstarter",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Restart the cloud function ever X time",
+  "main": "starter.js",
   "license": "MIT",
-  "dependencies": {
-    "express": "^4.16.4",
-    "helmet": "^3.16.0"
-  },
   "scripts": {
-    "start": "node ."
+    "start": "node starter.js"
+  },
+  "author": "Trevier Gittens",
+  "license": "ISC",
+  "dependencies": {
+    "https": "^1.0.0",
+    "node-schedule": "^1.3.1"
   }
 }
