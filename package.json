@@ -1,7 +1,7 @@
 {
   "name": "notificationstarter",
   "version": "1.0.0",
-  "description": "Restart the cloud function ever X time",
+  "description": "Restart the EenEenTwee cloud function ever X time",
   "main": "starter.js",
   "license": "MIT",
   "scripts": {
